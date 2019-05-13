@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/settings"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_name"
+        android:layout_width="368dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Название трансляции"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/name_stream"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_material_light"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_player1"
+        android:layout_width="368dp"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="97dp">
+
+        <TextView
+            android:id="@+id/player1_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Имя первого игрока"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <EditText
+            android:id="@+id/player1"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_material_light"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_player2"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="179dp">
+
+        <TextView
+            android:id="@+id/player2_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Имя второго игрока"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <EditText
+            android:id="@+id/player2"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_material_light"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="187dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_format"
+        android:layout_width="368dp"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="255dp">
+
+        <TextView
+            android:id="@+id/format_text"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:text="Разрешение"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <EditText
+            android:id="@+id/format"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_material_light"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="267dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="96dp"
+        android:layout_height="38dp"
+        android:text="res" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/revoke_access_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revoke Access"
+            android:enabled="true" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

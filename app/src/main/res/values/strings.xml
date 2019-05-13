@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StreamsOfMatches2</string>
+
+    <string name="server_client_id">782708152881-n74ofpe8mk22b80d6ig7s67uk9jeph4l.apps.googleusercontent.com</string>
+    <string name="client_secret">b9ra4uxKgIOqFxjEKaOCC-3x</string>
+
+    <string name="tokenIsNull">Вы должны авторизоваться!</string>
+    <string name="nameStreamIsNull">Задайте имя трансляции</string>
+    <!--<string name="server_client_id">936637155781-j75cnbltq0p0nfj73unqgu63p519ql6j.apps.googleusercontent.com</string>-->
+    <!--<string name="client_secret">_geDAopnqdF8bXc7LmMdA0Ew</string>-->
+
+
+</resources>
